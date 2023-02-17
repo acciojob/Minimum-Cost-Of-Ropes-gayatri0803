@@ -8,8 +8,7 @@ function minCost(event) {
 		var temp=Number(arr[0]) + Number(arr[1]);
 		cost+=temp;
 		arr.push(temp);
-		arr.shift();
-		arr.shift();
+		arr.splice(0,2);
 		arr.sort(function (a,b) {return a-b});
 		
 	}
