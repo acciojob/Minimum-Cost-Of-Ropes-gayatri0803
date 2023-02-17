@@ -14,3 +14,5 @@ function minCost(event) {
 	}
 	document.querySelector("div").textContent=cost;
 }
+  
+
